@@ -32,6 +32,9 @@
 
 @media (min-width: 576px) {
   /* *** HOMEPAGE *** */
+  .title-article {
+    margin-top: 0 !important;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -42,6 +45,9 @@
     display: none;
   }
   /* *** HOMEPAGE *** */
+  .title-article {
+    margin-top: 0 !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -52,6 +58,9 @@
     display: inline;
   }
   /* *** HOMEPAGE *** */
+  .title-article {
+    margin-top: -180px !important;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

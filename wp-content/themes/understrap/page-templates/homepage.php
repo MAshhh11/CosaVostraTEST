@@ -49,7 +49,7 @@ get_header();
 			<div class="container">
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img1.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img1.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>les gens</h3>
@@ -59,7 +59,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img2.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img2.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Actu / Médias</h3>
@@ -69,7 +69,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img3.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img3.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -79,7 +79,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img4.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img4.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Actu / Médias</h3>
@@ -89,7 +89,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img5.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img5.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Actu / Médias</h3>
@@ -99,7 +99,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img7.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img7.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -109,7 +109,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img6.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img6.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -119,7 +119,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img8.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img8.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -129,7 +129,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img9.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img9.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -162,7 +162,7 @@ get_header();
 				<!-- FOLLOWING ARTICLES -->
 				<div class="row p-3 mt-5 following">
 					<div class="col-4 mt-5">
-						<img id="main-img" src="<?php echo $asset ?>img10.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img10.png" alt="img-article">
 					</div>
 					<div class="col-8 mt-5">
 						<h3>Les gens</h3>
@@ -172,7 +172,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img1.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img1.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>les gens</h3>
@@ -182,7 +182,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img2.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img2.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Actu / Médias</h3>
@@ -192,7 +192,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img3.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img3.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -202,7 +202,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img4.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img4.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Actu / Médias</h3>
@@ -212,7 +212,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img5.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img5.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Actu / Médias</h3>
@@ -222,7 +222,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img7.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img7.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -232,7 +232,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img6.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img6.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -242,7 +242,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img8.png" alt="img-article">
+						<img iclass="article-img" src="<?php echo $asset ?>img8.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>
@@ -252,7 +252,7 @@ get_header();
 				</div>
 				<div class="row p-3">
 					<div class="col-4">
-						<img id="main-img" src="<?php echo $asset ?>img9.png" alt="img-article">
+						<img class="article-img" src="<?php echo $asset ?>img9.png" alt="img-article">
 					</div>
 					<div class="col-8">
 						<h3>Les gens</h3>

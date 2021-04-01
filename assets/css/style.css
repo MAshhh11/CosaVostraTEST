@@ -103,7 +103,7 @@ p {
 .newsletter {
   width: 200% !important;
   position: absolute;
-  right: 0;
+  right: 1em;
 }
 .button2 {
   border: 2px solid #000000;
