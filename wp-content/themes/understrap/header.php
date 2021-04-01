@@ -31,10 +31,11 @@ $container = get_theme_mod('understrap_container_type');
 	<?php do_action('wp_body_open'); ?>
 	<div class="site" id="page">
 
-		<!-- ******************* The Navbar Area ******************* -->
+		<!-- NAVBAR AREA -->
 		<header id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 			<div class="container-fluid ">
 				<div class="row">
+					<!-- HEADER SECTION LEFT SIDE -->
 					<div class="col-6 bg-Black">
 						<div class="container">
 							<div class="row">
@@ -76,6 +77,7 @@ $container = get_theme_mod('understrap_container_type');
 							</div>
 						</div>
 					</div>
+					<!-- HEADER SECTION RIGHT SIDE -->
 					<div class="col-6 bg-White">
 						<div class="row justify-content-lg-around p-3">
 							<p><i class="fab fa-facebook-f"></i></p>

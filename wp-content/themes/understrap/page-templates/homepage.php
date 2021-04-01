@@ -27,15 +27,16 @@ get_header();
 ?>
 <div class="container-fluid">
 	<div class="row">
+		<!-- LEFT SIDE - MAIN ARTICLE -->
 		<div class="col-6 bg-Black">
 			<div class="container main-article">
 				<div class="row">
-					<div class="col-12">
+					<div class="col-12 d-flex justify-content-center">
 						<img id="main-img" src="<?php echo $asset ?>main.png" alt="main-img">
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12 p-3">
+				<div class="row title-article">
+					<div class="col-12 p-5">
 						<h3>Les gens</h3>
 						<h1>Ce pote avec des idées de business foireuses</h1>
 						<p>C’est peut-être vous, d’ailleurs.</p>
@@ -43,6 +44,7 @@ get_header();
 				</div>
 			</div>
 		</div>
+		<!-- RIGHT SIDE - ARTICLES -->
 		<div class="col-6 bg-White mt-5 mb-5">
 			<div class="container">
 				<div class="row p-3">
@@ -135,25 +137,30 @@ get_header();
 						<p>Heureusement qu’il est là, celui-là.</p>
 					</div>
 				</div>
+				<!-- NEWSLETTER SECTION -->
 				<div class="row bg-GreenBlue newsletter">
 					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-12">
+						<div class="row p-5">
+							<div class="col-12 d-flex justify-content-center">
 								<h2>Inscris-toi à la newsletter</h2>
 							</div>
-							<div class="col-12">
+							<div class="col-12 d-flex justify-content-center mt-3 mb-3">
 								<div class="button2">Balance ton mail</div>
 							</div>
 							<div class="col-12">
+								<hr>
+							</div>
+							<div class="col-12 d-flex justify-content-center">
 								<p>PS : Rejoins-nous vite sur insta, on s’y marre bien !</p>
 							</div>
-							<div class="col-12">
+							<div class="col-12 d-flex justify-content-center">
 								<p> <i class="fab fa-instagram"></i> <i class="fab fa-facebook-f"></i></p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row p-3 mt-5">
+				<!-- FOLLOWING ARTICLES -->
+				<div class="row p-3 mt-5 following">
 					<div class="col-4 mt-5">
 						<img id="main-img" src="<?php echo $asset ?>img10.png" alt="img-article">
 					</div>

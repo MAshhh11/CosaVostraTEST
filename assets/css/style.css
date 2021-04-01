@@ -1,4 +1,4 @@
-/*************** STYLES ***************/
+/* ----STYLES---- */
 .bg-Black {
   background-color: #000000;
 }
@@ -9,7 +9,7 @@
   background-color: #21edce;
 }
 
-/* GENERAL  */
+/* ----GENERAL---- */
 html {
   scroll-behavior: smooth;
 }
@@ -37,13 +37,8 @@ p {
   font-family: "AvenirNextLTPro-Regular";
   font-size: 16px;
 }
-a .navbar-brand {
-  font-family: "AvenirNextLTPro-Bold" !important;
-  font-size: 30px !important;
-  color: #21edce !important;
-}
 
-/*INTEGRATION DES FONT-FACES*/
+/* ----FONT-FACES---- */
 
 @font-face {
   font-family: "AvenirNextLTPro-Bold";
@@ -70,17 +65,58 @@ a .navbar-brand {
   src: url(../fonts/AvenirNextLTPro-Regular.otf);
 }
 /* HEADER */
+.navbar-brand {
+  font-family: "AvenirNextLTPro-Bold" !important;
+  font-size: 48px !important;
+  color: #21edce !important;
+}
+.button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+}
 
-/* HOMEPAGE */
+/* ----HOMEPAGE---- */
+
+/* MAIN ARTICLE */
 .main-article {
   position: fixed;
-  width: 50% !important;
+  width: 50%;
 }
 #main-img {
-  width: 60%;
+  width: 85%;
 }
+.title-article {
+  margin-top: -180px !important;
+}
+.title-article p {
+  color: #ffffff;
+}
+/* NEWSLETTER SECTION */
 .newsletter {
   width: 200% !important;
   position: absolute;
   right: 0;
+}
+.button2 {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 102px;
+  padding-left: 102px;
+  color: #ffffff;
+}
+hr {
+  width: 5%;
+  color: #ffffff !important;
+}
+.newsletter i {
+  color: #ffffff !important;
+}
+
+/* FOLLOWING ARTICLES */
+.following {
+  margin-top: 300px !important;
 }
