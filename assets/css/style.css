@@ -1,0 +1,86 @@
+/*************** STYLES ***************/
+.bg-Black {
+  background-color: #000000;
+}
+.bg-White {
+  background-color: #ffffff;
+}
+.bg-GreenBlue {
+  background-color: #21edce;
+}
+
+/* GENERAL  */
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  font-family: "AvenirNextLTPro-Bold";
+  font-size: 40px;
+  color: #ffffff;
+  font-style: italic;
+}
+h2 {
+  font-family: "AvenirNextLTPro-Bold";
+  font-size: 24px;
+  color: #000000;
+  font-style: italic;
+}
+h3 {
+  font-family: "AvenirNextLTPro-Regular";
+  font-size: 16px;
+  color: #21edce;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+p {
+  font-family: "AvenirNextLTPro-Regular";
+  font-size: 16px;
+}
+a .navbar-brand {
+  font-family: "AvenirNextLTPro-Bold" !important;
+  font-size: 30px !important;
+  color: #21edce !important;
+}
+
+/*INTEGRATION DES FONT-FACES*/
+
+@font-face {
+  font-family: "AvenirNextLTPro-Bold";
+  src: url(../fonts/AvenirNextLTPro-Bold.otf);
+}
+@font-face {
+  font-family: "AvenirNextLTPro-BoldCn";
+  src: url(../fonts/AvenirNextLTPro-BoldCn.otf);
+}
+@font-face {
+  font-family: "AvenirNextLTPro-Demi";
+  src: url(../fonts/AvenirNextLTPro-Demi.otf);
+}
+@font-face {
+  font-family: "AvenirNextLTPro-DemiCn";
+  src: url(../fonts/AvenirNextLTPro-DemiCn.otf);
+}
+@font-face {
+  font-family: "AvenirNextLTPro-It";
+  src: url(../fonts/AvenirNextLTPro-It.otf);
+}
+@font-face {
+  font-family: "AvenirNextLTPro-Regular";
+  src: url(../fonts/AvenirNextLTPro-Regular.otf);
+}
+/* HEADER */
+
+/* HOMEPAGE */
+.main-article {
+  position: fixed;
+  width: 50% !important;
+}
+#main-img {
+  width: 60%;
+}
+.newsletter {
+  width: 200% !important;
+  position: absolute;
+  right: 0;
+}
