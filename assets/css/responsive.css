@@ -1,0 +1,65 @@
+/*************** RESPONSIVE ***************/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 575px) {
+  /* HEADER */
+  .right-side {
+    display: none;
+  }
+  /* *** HOMEPAGE *** */
+  .main-article {
+    height: auto;
+    position: relative;
+    width: 100% !important;
+  }
+  #main-img {
+    width: 100%;
+  }
+  .title-article {
+    margin-top: 0 !important;
+  }
+  .newsletter {
+    width: 100% !important;
+    position: static;
+    margin: 0;
+  }
+  .following {
+    margin-top: 0 !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+  /* *** HOMEPAGE *** */
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  /* HEADER */
+  .button-name {
+    display: none;
+  }
+  /* *** HOMEPAGE *** */
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  /* HEADER */
+  .button-name {
+    display: inline;
+  }
+  /* *** HOMEPAGE *** */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+}

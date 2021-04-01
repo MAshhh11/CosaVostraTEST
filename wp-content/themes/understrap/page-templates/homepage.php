@@ -28,7 +28,7 @@ get_header();
 <div class="container-fluid">
 	<div class="row">
 		<!-- LEFT SIDE - MAIN ARTICLE -->
-		<div class="col-6 bg-Black">
+		<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-Black">
 			<div class="container main-article">
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center">
@@ -45,7 +45,7 @@ get_header();
 			</div>
 		</div>
 		<!-- RIGHT SIDE - ARTICLES -->
-		<div class="col-6 bg-White mt-5 mb-5">
+		<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-White mt-5 mb-5">
 			<div class="container">
 				<div class="row p-3">
 					<div class="col-4">
@@ -104,7 +104,7 @@ get_header();
 					<div class="col-8">
 						<h3>Les gens</h3>
 						<h2>Ce pote du taf qui fait du bien</h2>
-						<p>SHeureusement qu’il est là, celui-là.</p>
+						<p>Heureusement qu’il est là, celui-là.</p>
 					</div>
 				</div>
 				<div class="row p-3">
@@ -138,7 +138,7 @@ get_header();
 					</div>
 				</div>
 				<!-- NEWSLETTER SECTION -->
-				<div class="row bg-GreenBlue newsletter">
+				<div class="row bg-GreenBlue newsletter p-0">
 					<div class="container">
 						<div class="row p-5">
 							<div class="col-12 d-flex justify-content-center">
@@ -227,7 +227,7 @@ get_header();
 					<div class="col-8">
 						<h3>Les gens</h3>
 						<h2>Ce pote du taf qui fait du bien</h2>
-						<p>SHeureusement qu’il est là, celui-là.</p>
+						<p>Heureusement qu’il est là, celui-là.</p>
 					</div>
 				</div>
 				<div class="row p-3">
@@ -258,6 +258,13 @@ get_header();
 						<h3>Les gens</h3>
 						<h2>Santé : pourquoi les gens qui mangent bio sont-ils cheums ?</h2>
 						<p>Heureusement qu’il est là, celui-là.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
+						<div class="col-12 d-flex justify-content-center mt-5">
+							<h2>JOOKS.</h2>
+						</div>
 					</div>
 				</div>
 

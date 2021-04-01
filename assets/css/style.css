@@ -70,6 +70,12 @@ p {
   font-size: 48px !important;
   color: #21edce !important;
 }
+.picto {
+  font-size: 20px;
+}
+.app {
+  color: #b2b2b2;
+}
 .button {
   background-color: #000000;
   color: #ffffff;

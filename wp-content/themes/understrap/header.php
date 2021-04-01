@@ -24,6 +24,7 @@ $container = get_theme_mod('understrap_container_type');
 	<?php wp_head(); ?>
 
 	<link rel="stylesheet" href="<?php echo get_site_url(); ?>/assets/css/style.css" />
+	<link rel="stylesheet" href="<?php echo get_site_url(); ?>/assets/css/responsive.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 
@@ -36,7 +37,7 @@ $container = get_theme_mod('understrap_container_type');
 			<div class="container-fluid ">
 				<div class="row">
 					<!-- HEADER SECTION LEFT SIDE -->
-					<div class="col-6 bg-Black">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-Black">
 						<div class="container">
 							<div class="row">
 								<div class="container">
@@ -78,13 +79,17 @@ $container = get_theme_mod('understrap_container_type');
 						</div>
 					</div>
 					<!-- HEADER SECTION RIGHT SIDE -->
-					<div class="col-6 bg-White">
-						<div class="row justify-content-lg-around p-3">
-							<p><i class="fab fa-facebook-f"></i></p>
-							<p><i class="fab fa-instagram"></i></p>
-							<p>Les app</p>
-							<div class="button"><i class="fab fa-apple"></i> IOS</div>
-							<div class="button"><i class="fab fa-android"></i> Android</div>
+					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-White right-side">
+						<div class="row justify-content-around p-3">
+							<p class="picto"><i class="fab fa-facebook-f"></i></p>
+							<p class="picto"><i class="fab fa-instagram"></i></p>
+							<p class="app">Les app</p>
+							<div class="button px-3"><i class="fab fa-apple"></i>
+								<p class="button-name">IOS</p>
+							</div>
+							<div class="button px-3"><i class="fab fa-android"></i>
+								<p class="button-name">Android</p>
+							</div>
 						</div>
 					</div>
 				</div>
