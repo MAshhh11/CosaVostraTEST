@@ -31,8 +31,8 @@ get_header();
 		<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-Black">
 			<div class="container main-article">
 				<div class="row">
-					<div class="col-12 d-flex justify-content-center">
-						<img id="main-img" src="<?php echo $asset ?>main.png" alt="main-img">
+					<div class="col-12 d-flex justify-content-center gradient">
+						<img id="main-img" src=" <?php echo $asset ?>main.png" alt="main-img">
 					</div>
 				</div>
 				<div class="row title-article">

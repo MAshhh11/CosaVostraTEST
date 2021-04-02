@@ -100,6 +100,24 @@ p {
   font-size: 48px;
   color: #ffffff;
 }
+.main-menu .nav li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #21edce;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.5s ease-in-out;
+}
+.main-menu .nav li a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+  color: #21edce;
+  text-decoration: none;
+}
 .main-menu .nav li a:hover {
   color: #21edce;
   text-decoration: none;
@@ -220,6 +238,19 @@ p {
 }
 #main-img {
   width: 85%;
+}
+.gradient {
+  position: relative;
+}
+.gradient:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, transparent, black);
+  opacity: 0.9;
 }
 .title-article {
   margin-top: -180px !important;
