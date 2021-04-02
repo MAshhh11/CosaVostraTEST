@@ -31,7 +31,6 @@ $container = get_theme_mod('understrap_container_type');
 <body <?php body_class(); ?>>
 	<?php do_action('wp_body_open'); ?>
 	<div class="site" id="page">
-
 		<!-- NAVBAR AREA -->
 		<header id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 			<div class="container-fluid ">
@@ -43,36 +42,27 @@ $container = get_theme_mod('understrap_container_type');
 								<div class="container">
 									<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e('Skip to content', 'understrap'); ?></a>
 
-									<nav class="navbar navbar-dark navbar-expand-md">
-
-										<?php if (is_front_page() && is_home()) : ?>
-
-											<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url"><?php bloginfo('name'); ?></a></h1>
-
-										<?php else : ?>
-
-											<a class="navbar-brand" rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url">JOOKS.</a>
-
-										<?php endif; ?>
-
-										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
-											<span class="navbar-toggler-icon"></span>
-										</button>
-
-										<!-- The WordPress Menu goes here -->
-										<?php wp_nav_menu(
-											array(
-												'theme_location'  => 'primary',
-												'container_class' => 'collapse navbar-collapse',
-												'container_id'    => 'navbarNavDropdown',
-												'menu_class'      => 'navbar-nav ml-auto',
-												'fallback_cb'     => '',
-												'menu_id'         => 'main-menu',
-												'depth'           => 2,
-												'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-											)
-										); ?>
-
+									<div class="navbar navbar-dark box-shadow">
+										<div class="container d-flex justify-content-between">
+											<a href="<?php echo esc_url(home_url('/')); ?>" class=" navbar-brand d-flex align-items-center">
+												<strong>JOOKS.</strong>
+											</a>
+											<a class="nav-button ml-auto mr-4"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
+										</div>
+									</div>
+									<!--navbar end-->
+									<div class="fixed-top main-menu">
+										<div class="flex-center p-5">
+											<!-- The WordPress Menu goes here -->
+											<?php wp_nav_menu(
+												array(
+													'theme_location'  => 'primary',
+													'container_class' => 'nav',
+													'menu_class'      => 'nav-item',
+												)
+											); ?>
+										</div>
+									</div>
 									</nav><!-- .site-navigation -->
 								</div>
 							</div>
@@ -94,6 +84,5 @@ $container = get_theme_mod('understrap_container_type');
 					</div>
 				</div>
 			</div>
-
 		</header><!-- #wrapper-navbar end -->
 		<main>
