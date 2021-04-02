@@ -45,8 +45,8 @@ get_header();
 			</div>
 		</div>
 		<!-- RIGHT SIDE - ARTICLES -->
-		<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-White mt-5 mb-5">
-			<div class="container">
+		<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-White mt-5 mb-5 artMob">
+			<div class="container artMob2">
 				<div class="row p-3">
 					<div class="col-4">
 						<img class="article-img" src="<?php echo $asset ?>img1.png" alt="img-article">

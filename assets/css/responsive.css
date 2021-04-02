@@ -26,6 +26,12 @@
   .following {
     margin-top: 0 !important;
   }
+  .artMob {
+    padding: 0 !important;
+  }
+  .artMob2 {
+    padding: 0 !important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
