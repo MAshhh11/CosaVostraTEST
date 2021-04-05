@@ -6,6 +6,15 @@
   .right-side {
     display: none;
   }
+  .navbar-brand {
+    font-size: 38px !important;
+  }
+  .main-menu .nav li a {
+    font-size: 38px;
+  }
+  #wrapper-navbar {
+    padding-right: 0 !important;
+  }
   /* *** HOMEPAGE *** */
   .main-article {
     height: auto;
@@ -22,6 +31,7 @@
     width: 100% !important;
     position: static;
     margin: 0;
+    padding: 0 !important;
   }
   .following {
     margin-top: 0 !important;
@@ -29,17 +39,48 @@
   .artMob {
     padding: 0 !important;
   }
+  .artMob > div {
+    padding-right: 0 !important;
+  }
   .artMob2 {
     padding: 0 !important;
+  }
+  .artMob2 > div {
+    padding-right: 0 !important;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
+  /* HEADER */
+  .button-name {
+    display: none;
+  }
+  .navbar-brand {
+    font-size: 30px !important;
+  }
+  .nav-button {
+    position: relative;
+    z-index: 1111;
+    height: 42px;
+    display: block;
+    width: 10px;
+    padding: 5px;
+  }
   /* *** HOMEPAGE *** */
   .title-article {
     margin-top: 0 !important;
+  }
+  .gradient:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent, black);
+    opacity: 0.9;
   }
 }
 
@@ -50,9 +91,22 @@
   .button-name {
     display: none;
   }
+  .navbar-brand {
+    font-size: 38px !important;
+  }
   /* *** HOMEPAGE *** */
   .title-article {
     margin-top: 0 !important;
+  }
+  .gradient:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent, black);
+    opacity: 0.9;
   }
 }
 

@@ -28,7 +28,7 @@ get_header();
 <div class="container-fluid">
 	<div class="row">
 		<!-- LEFT SIDE - MAIN ARTICLE -->
-		<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-Black">
+		<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 bg-Black left-side">
 			<div class="container main-article">
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center gradient">

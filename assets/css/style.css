@@ -12,6 +12,11 @@
 /* ----GENERAL---- */
 html {
   scroll-behavior: smooth;
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  margin: 0;
 }
 h1 {
   font-family: "AvenirNextLTPro-Bold";
